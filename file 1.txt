@@ -1,0 +1,7 @@
+copy icon
+download icon
+if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
+    mTextureView.setAspectRatio(mPreviewSize.getWidth(),mPreviewSize.getHeight());
+} else {
+    mTextureView.setAspectRatio(mPreviewSize.getHeight(),mPreviewSize.getWidth());
+}

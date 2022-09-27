@@ -1,0 +1,11 @@
+- source
+  - MyLib
+    lib.cpp
+  - CMakelists.txt
+- include
+  - MyLib
+    lib.h
+- example
+  main.cpp
+  CMakelists.txt
+CMakelists.txt (main CMake for library)
